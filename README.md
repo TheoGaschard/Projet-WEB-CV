@@ -8,19 +8,27 @@ L’objectif de ce projet est de créer un site internet CV. Il servira à la fo
 
 Pour commencer la création du site web, j’ai avant tout créé un prototype à l’aide du logiciel Adobe XD. 
 J'ai structuré ma maquette avec les caractéristiques suivantes :
+
 *Site en sept pages : Accueille,  A propos, compétences, expériences, études, portfolio et contact.
+
 *Un bandeau en haut de chaque page qui permet de changer de page facilement.
+
 *Site compatible mobile avec un menu déroulant pour la version mobile.
+
 *Couleurs : blanc, nuances de gris, noir, jaune.
 
 ## Structure du site avec HTML/CSS
 
 Afin d’avoir les sept pages de mon site , j’ai créé sept fichiers html avec les caractéristiques suivantes :
 *Une balise <head> dans laquelle se trouve les informations sur la page tel que le titre.
+  
 *Une balise <body> contenant le contenu de site et notamment une balise <header> contenant le bandeau menu de navigation.
 Le bandeau comporte des balises <a> pour faire le lien entre les pages.
+  
 Certaines pages comportent des balises particulières :
+
 *La page concernant les compétences comporte des balises <ul> et <li> qui servent à faire des listes.
+  
 *La page contact content une balise <from> pour créer le formulaire de contact.
  
 ## La base de données SQL
