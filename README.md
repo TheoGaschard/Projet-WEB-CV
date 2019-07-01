@@ -20,16 +20,16 @@ J'ai structuré ma maquette avec les caractéristiques suivantes :
 ## Structure du site avec HTML/CSS
 
 Afin d’avoir les sept pages de mon site , j’ai créé sept fichiers html avec les caractéristiques suivantes :
-*Une balise <head> dans laquelle se trouve les informations sur la page tel que le titre.
+*Une balise 'head' dans laquelle se trouve les informations sur la page tel que le titre.
   
-*Une balise <body> contenant le contenu de site et notamment une balise <header> contenant le bandeau menu de navigation.
-Le bandeau comporte des balises <a> pour faire le lien entre les pages.
+*Une balise 'body' contenant le contenu de site et notamment une balise 'header' contenant le bandeau menu de navigation.
+Le bandeau comporte des balises 'a' pour faire le lien entre les pages.
   
 Certaines pages comportent des balises particulières :
 
-*La page concernant les compétences comporte des balises <ul> et <li> qui servent à faire des listes.
+*La page concernant les compétences comporte des balises 'ul' et 'li' qui servent à faire des listes.
   
-*La page contact content une balise <from> pour créer le formulaire de contact.
+*La page contact content une balise 'form' pour créer le formulaire de contact.
  
 ## La base de données SQL
 
