@@ -1,0 +1,305 @@
+
+ /* Règles générales : */
+
+body{
+    font-family: Arial;
+    margin:0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+ /* Header : */
+
+
+a{
+    text-decoration-line: none;
+    letter-spacing: 2px;
+    color: black;
+}
+
+#hd{
+    display: flex;
+    height: 50px;
+    background-color: rgb(184, 184, 184);
+
+}
+
+.boutonheader{
+    flex:1;
+    height: 100%;
+}
+
+.boutonheader:hover{
+    background-color: rgb(48, 48, 48);
+    color: yellow;
+}
+
+
+ /* Profil : */
+
+.nom{
+    font-weight: bold;
+}
+
+
+#tete{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(48, 48, 48);
+    display: block;
+    padding: 20px;
+}
+#lpp{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+#pp{
+    background-image: url(../images/pp.jpg);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+
+
+ /* Règles générales des Titres : */
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: black;
+    border-bottom: 1.5px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-style: solid;
+}
+h3{
+    color: #ccc;
+    text-align: center;
+    margin: 0px;
+}
+
+
+/* Titre de page : */
+
+.titrepage{
+    height: 80px;
+    width: 80%;
+    background-color:  rgb(248, 228, 136);
+    margin-top: 100px;
+    margin-left: 10%;
+    padding-left: 5%;
+
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Bloc de contenu : */
+
+#bodypage{
+    width: 80%;
+    background-color: rgb(248, 228, 136);
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 100px;
+    padding: 50px 50px 5% 5%;
+
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+
+}
+
+
+/*     PAGE  ABOUT        */
+
+.texte{
+    font-size: 30px;
+}
+
+
+/*     PAGE  SKILLS        */
+
+.titreskill{
+    font-size: 20px;
+}
+
+.ligneskill{
+    width: 100%;
+    display: flex;
+}
+
+.nomskill{
+    margin-left: 5%;
+    width: 20%;
+
+}
+
+.jauge{
+    background-color: white;
+    height: 15px;
+    width: 60%;
+    margin-top: 20px;
+
+}
+
+.jaugeskill{
+    background-color: gray;
+    height: 100%;
+
+}
+
+#SkAnglais{
+    width: 80%;
+}
+#SkEspagnol{
+    width: 70%;
+}
+
+#SkC{
+    width: 70%;
+}
+#SkArduino{
+    width: 80%;
+}
+#SkPython{
+    width: 70%;
+}
+
+#SkCisco{
+    width: 70%;
+}
+#SkHP{
+    width: 60%;
+}
+#SkVirtu{
+    width: 60%;
+}
+
+#SkSQL{
+    width: 60%;
+}
+
+#SkHTML{
+    width: 80%;
+}
+#SkJS{
+    width: 40%;
+}
+#SkPHP{
+    width: 60%;
+}
+
+
+/*       PAGE EDUCATION     */
+
+.textedu{
+    font-size: 30px;
+}
+
+
+/*       PAGE PORTFOLIO     */
+
+.projet{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.imageprojet{
+    height: 300px;
+    width: 400px;
+    background-color: orange;
+
+}
+
+.margeprojet{
+    width: 10%;
+}
+
+.texteprojet{
+    width: 60%;
+    font-size: 20px;
+}
+
+#projet1{
+    background-image: url(../images/p1.PNG);
+}
+
+#projet2{
+    background-image: url(../images/p2.PNG);
+}
+
+#projet3{
+    background-image: url(../images/p3.PNG);
+}
+
+#projet4{
+    background-image: url(../images/p4.PNG);
+}
+/*       PAGE EXPERIENCE     */
+
+.titreexp{
+    font-size: 30px;
+    padding-left: 10%;
+    text-decoration: underline; 
+}
+
+.texteexp{
+    font-size: 20px;
+}
+
+/*       PAGE CONTACT     */
+
+#textecontact{
+    font-size: 20px;
+}
+
+#boutoncontact{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: yellow;
+
+    margin-top: 40px;
+}
+
+#boutoncontact:hover{
+    background-color:rgb(48, 48, 48);
+}
+
+
+/*       Responsive :     */
+
+@media (max-width: 760px) {
+
+    .titrepage{
+
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #bodypage{
+
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+}
